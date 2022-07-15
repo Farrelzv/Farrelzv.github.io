@@ -1,0 +1,504 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    height: 70px;
+    position: sticky !important;
+    z-index: 1;
+    top: 0;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 5px 5px rgb(168, 167, 167);
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 16px 24px;
+}
+
+header h1 a:hover {
+    color: orchid;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    padding: 24px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: orchid;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-1 {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.efek-ngetik {
+    color: rgb(255, 0, 200);
+}
+
+.text-2 {
+    margin-left: 30px;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 18px;
+}
+.mobile-menu:hover {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    background-color: rgba(59, 254, 222,  .7);
+    transition: .3s;
+}
+
+.sidebar ul li a {
+    color: #fff;
+}
+
+.sidebar ul li {
+    padding: 24px;
+    transition: .3s;
+}
+
+.sidebar ul li:hover {
+    background-color: #788C89;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.Baner {
+    background-color: #fff;
+}
+
+.Baner img {
+    width: 100px;
+}
+
+.about-1 {
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(255, 0, 191);
+    padding-bottom: 70px;
+}
+
+
+.IMEK-1{
+    height: 300px;
+    margin-left: 100px;
+   padding: 20px 0;
+}
+
+.A-1 {
+    text-align: center;
+    margin-top: -330px;
+    padding-top: 100px;
+    margin-left: -435px;
+}
+
+.a-1 {
+    margin-left: 300px;
+    padding: 30px;
+}
+
+.Explore-1 {
+    margin-left: 30px;
+    background: rgb(255, 76, 210);
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px rgb(168, 167, 167);
+    cursor: pointer;
+}
+
+.Explore-1:hover {
+    background: blue;
+    transition: 1s;
+}
+
+.Ig-1 {
+   margin-left: 170px;
+   margin-top: 10px;
+   border:solid pink;
+   position: absolute;
+   width: 120px;
+   height: 30px;
+   border-radius: 20px;
+   text-align: center;
+   color: rgb(255, 108, 132);
+   cursor: pointer;
+   padding-top: 3px;
+   box-shadow: 3px 5px 5px rgb(168, 167, 167); 
+}
+
+.Ig-1:hover {
+    background-color: pink;
+    color: rgb(124, 124, 124);
+    transition: 1s;
+}
+
+.UX-1 {
+    margin-left: 750px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -200px;
+    background-color: #b63089;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+    width: 140px;
+    height: 70px;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+
+.UX-1:hover {
+    border: solid rgb(248, 147, 164);
+    background: #fff;
+    color: rgb(255, 80, 109);
+    transition: 1s;
+}
+
+.ACI-1 {
+    margin-left: 950px;
+    text-align: center;
+    margin-bottom: 300px;
+    margin-top: -85px;
+    background: rgb(255, 78, 107);
+    color: #fff;
+    width: 200px;
+    height: 70px;
+    padding-top: 15px;
+    border-radius: 20px;
+    padding-bottom: -10px;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+}
+
+.ACI-1:hover {
+    border: solid rgb(255, 6, 213);
+    border-radius: 20px;
+    transition: 1s;
+    color: rgb(191, 30, 255);
+    background: #fff;
+}
+
+.Ctext-1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Skills-aja {
+    border: 0px solid #ffff;
+    height: 500px;
+    margin-top: -380px;
+    width: 920px;
+    margin-left: 200px;
+    background-color: #ddd6d9;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+    border-radius: 50px;
+}
+
+.HTML-logo {
+    height: 50px;
+    padding-top: 140px;
+    margin-left: 330px;
+}
+
+.Skills-1 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(255, 0, 149);
+}
+
+.Stext-1 {
+    margin-left: 333px;
+   padding-top: 20px;
+}
+
+.CSS-logo {
+    height: 60px;
+    margin-left: 480px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+}
+
+.Stext-2 {
+    margin-left: 485px;
+    margin-top: -80px;
+}
+
+.JS-logo {
+    height: 55px;
+    margin-left: 627px;
+    margin-top: -300px;
+    margin-bottom: 190px;
+    align-items: center;
+}
+
+.Stext-3 {
+    margin-left: 637px;
+    margin-bottom: 170px;
+    margin-top: -170px;
+}
+
+.FLASK-logo {
+    height: 70px;
+    margin-left: 800px;
+    margin-top: -500px;
+    margin-bottom: 80px;
+}
+
+.Stext-4 {
+    margin-left: 810px;
+    margin-top: -80px;
+
+}
+
+.PITON-logo {
+    height: 90px;
+    margin-left: 880px;
+    margin-top: -600px;
+    margin-bottom: 150px;
+}
+
+.Stext-5 {
+    margin-left: 933px;
+    margin-top: -170px;
+}
+
+.Text-my {
+    margin-left: 605px;
+    margin-top: 200px;
+}
+
+.Wtext-1 {
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(255, 80, 109);
+   padding-bottom: 60px;
+}
+
+.Vid-1 {
+    height: 200px;
+    margin-left: 100px;
+    box-shadow: 3px 10px 10px rgb(168, 167, 167);
+    border:solid #788C89;
+    border-radius: 50px;
+}
+
+.Wtext-2 {
+    margin-left: 110px;
+}
+
+.Vid-2 {
+    height: 200px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    margin-top: -700px;
+    border: solid #788C89;
+    border-radius: 30px;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+}
+
+.Wtext-3 {
+    margin-left: 600px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.Vid-3 {
+    height: 200px;
+    margin-left: 910px;
+    margin-top: -500px;
+    margin-bottom: 80px;
+    border: solid #788C89;
+    border-radius: 30px;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+}
+
+.Wtext-4 {
+    margin-left: 950px;
+    margin-top: -80px;
+}
+
+.Vid-4 {
+    height: 200px;
+    margin-bottom: -40px;
+    margin-top: 70px;
+    margin-left: 300px;
+    border: solid #788C89;
+    border-radius: 30px ;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+}
+
+.Wtext-5 {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.Wmek-1 {
+    height: 200px;
+    margin-left: 750px;
+    margin-bottom: 300px;
+    margin-top: -230px;
+    border: solid #788C89;
+    border-radius: 30px;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+
+}
+
+.Wtext-6 {
+    margin-left: 830px;
+    margin-top: -298px;
+}
+
+.Int-1 {
+    margin-left: 530px;
+    height: 30px;
+    width: 300px;
+}
+
+.Email-1 {
+    margin-bottom: 20px;
+    margin-left: 530px;
+    width: 300px;
+    height: 50px;
+}
+
+.Pertanyaan-1 {
+    margin-left: 530px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+}
+
+.Send-1 {
+    background: rgb(193, 193, 248);
+    position: absolute;
+    margin-left: 740px;
+    margin-top: -100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 3px 10px 10px rgb(187, 181, 181);
+    
+}
+
+.Send-1:hover {
+    background: pink;
+}
+
+.SOSMED-1 {
+    background: rgb(255, 94, 121);
+    margin-top: 40px;
+}
+
+.Farrel-1 {
+    margin-top: 10px;
+    text-align: center;
+    color: blackf;
+    padding-top: 5px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.fa-instagram {
+   font-size: 30px;
+   margin-top: 10px;
+   margin-left: 580px;
+   color: rgb(235, 235, 235);
+}
+
+.fa-instagram:hover {
+    color: rgb(43, 248, 197);
+    transition: 1s;
+}
+
+.fa-twitter {
+    font-size: 30px;
+    margin-left: 50px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.fa-twitter:hover {
+    color: rgb(43, 248, 197);
+    transition: 1s;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.fa-linkedin:hover {
+    color: rgb(43, 248, 197);
+    transition: 1s;
+}
+
+.email-1 {
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .mobile-menu {
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
+
+}
